@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Emily Engel-Natzke: Portfolio</title>
+        <link href="resources/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <header>
+        <h1>Emily Engel-Natzke</h1>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a class="active" href="contact.html">Contact</a>
+    </div>
+     <div class="social-nav">
+            <a href="https://twitter.com/EmilyEngel_UW" target="_blank">
+                <img class="social-icon" src="resources/twitter icon.svg" width="20px">
+            </a>
+            <a href="https://www.instagram.com/emilyke30/" target="_blank">
+                <img class="social-icon" src="resources/instagram icon.svg" width="20px">
+            </a>
+            <a href="https://www.youtube.com/channel/UC8mbcC3zYfcg8eQifj1zp5g?view_as=subscriber" target="_blank">
+                <img class="social-icon" src="resources/youtube icon.svg" width="20px">
+            </a>
+            <a href="https://www.linkedin.com/in/emily-engel-natzke-9315ab65/">
+                <img class="social-icon" src="resources/linkedin icon.svg" width="20px">
+            </a>
+        </div>
+    </header>
+    <form class="contactform" action="https://formspree.io/xwkraklb" method="POST">
+        <label>
+            <span class="form">Your name:</span>
+            <br>
+            <input id="name" type="text" name="name" placeholder="First & Last" required>
+        </label>
+        <br />
+        <label>
+            <span class="form">Your email:</span>
+            <br>
+            <input id="email" type="text" name="email" placeholder="yourinfo@email.com" required>
+          </label>
+          <br />
+          <label>
+            <span class="form">Your message: </span>
+            <br>
+            <textarea id="message-body" component="textarea" name="body" placeholder="What's on your mind?" required></textarea>
+          </label>
+          <br>
+        
+          <!-- your other form fields go here -->
+        
+          <button type="submit">Send</button>
+    </form>
+        
+    <footer class="footer">
+      <p class="p-footer">© 2020 Emily Engel-Natzke</p>
+  </footer>
+  </body>
+  </html>
