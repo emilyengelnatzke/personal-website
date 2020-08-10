@@ -86,7 +86,6 @@
     font-size: 15px;
     text-align: center;
     margin-top: 60px;
-    justify-content: center;
     width: 100%;
   }
 
@@ -167,10 +166,6 @@
     margin: 4px 20px;
     cursor: pointer;
     border-radius: 5px;
-  }
-
-  p {
-    margin-right: 40px;
   }
 
   .italics {
