@@ -97,7 +97,7 @@
 
   .banner {
     background-image: url("./resources/worlds\ bw.png bw.png");
-    max-width: 100%;
+    background-size: auto;
   }
 .intro-quote {
     color: white;
