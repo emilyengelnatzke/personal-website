@@ -205,10 +205,10 @@
   }
 
   p#resume-personal-statement {
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     line-height: 1.4;
-    max-width: 100%;
+    max-width: 40em;
     font-weight: 550;
     display: inline-block;
     box-sizing: inherit;
