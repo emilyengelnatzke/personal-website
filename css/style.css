@@ -1,4 +1,3 @@
-@media all;
 
 @font-face {
   font-family: 'Lato';
@@ -91,10 +90,12 @@
     width: 100%;
   }
 
-  body {
+  @media screen and (max-width: 600px) {
+    body {
       font-family: 'Lato', Helvetica, sans-serif;
       background: black;
       color: white;
+  }
   }
 
   .home-photo {
