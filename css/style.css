@@ -90,20 +90,17 @@
     width: 100%;
   }
 
-  @media screen and (max-width: 600px) {
-    body {
+  
+  body {
       font-family: 'Lato', Helvetica, sans-serif;
       background: black;
       color: white;
   }
-  }
 
-  @media screen and (max-width: 600px) { 
   .home-photo {
     padding-top: 5px;
     display: right;
     width: 100%;
-  }
   }
 
 .intro-quote {
