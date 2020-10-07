@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -89,6 +90,7 @@
     width: 100%;
   }
 
+  
   body {
       font-family: 'Lato', Helvetica, sans-serif;
       background: black;
@@ -144,6 +146,12 @@
     text-align: center;
   }
 
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 12px;
+    }
+  }
+
   .form {
     margin-left: 20px;
   }
@@ -189,7 +197,7 @@
 
   .position {
     font-weight: 600;
-    line-height: .2;
+    line-height: 1.2;
     font-size: 17px;
     margin: 20px 20px;
     font-weight: 400;
