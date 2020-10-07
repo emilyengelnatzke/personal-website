@@ -98,10 +98,12 @@
   }
   }
 
+  @media screen and (max-width: 600px) { 
   .home-photo {
     padding-top: 5px;
     display: right;
     width: 100%;
+  }
   }
 
 .intro-quote {
