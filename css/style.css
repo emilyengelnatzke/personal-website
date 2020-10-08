@@ -116,6 +116,17 @@
     word-spacing: 1.5;
     letter-spacing: 2px;
   }
+
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .intro-quote {
+      font-size: 25px;
+      top: 15%;
+    }
+}
+
   .intro-quote-2 {
     color: white;
     font-size: 45px;
@@ -131,6 +142,15 @@
     font-weight: 300;
   }
 
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .intro-quote-2 {
+      font-size: 18px;
+      top: 15%;
+    }
+}
 
 .home-photo {
     padding-top: 5px;
@@ -148,7 +168,7 @@
 
   @media screen and (max-width: 600px) {
     h1 {
-      font-size: 12px;
+      font-size: 15px;
     }
   }
 
@@ -188,7 +208,7 @@
 
   .place {
     font-weight: 900;
-    line-height: .5;
+    line-height: 1.2;
     font-size: 22px;
     margin: 20px 20px;
     padding-top: 20px;
